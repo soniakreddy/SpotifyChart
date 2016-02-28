@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D999CCF1C81D357009045C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999CCE1C81D357009045C7 /* main.m */; };
+		9D999CD21C81D357009045C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999CD11C81D357009045C7 /* AppDelegate.m */; };
+		9D999CD51C81D357009045C7 /* TrackListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999CD41C81D357009045C7 /* TrackListViewController.m */; };
+		9D999CD81C81D357009045C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D999CD61C81D357009045C7 /* Main.storyboard */; };
+		9D999CDA1C81D357009045C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D999CD91C81D357009045C7 /* Assets.xcassets */; };
+		9D999CDD1C81D357009045C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D999CDB1C81D357009045C7 /* LaunchScreen.storyboard */; };
+		9D999CE81C81D357009045C7 /* SpotifyChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999CE71C81D357009045C7 /* SpotifyChartTests.m */; };
+		9D999CF31C81D357009045C7 /* SpotifyChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999CF21C81D357009045C7 /* SpotifyChartUITests.m */; };
+		9D999D2B1C81D61E009045C7 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D031C81D61E009045C7 /* AFHTTPRequestOperation.m */; };
+		9D999D2C1C81D61E009045C7 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D051C81D61E009045C7 /* AFHTTPRequestOperationManager.m */; };
+		9D999D2D1C81D61E009045C7 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D071C81D61E009045C7 /* AFHTTPSessionManager.m */; };
+		9D999D2E1C81D61E009045C7 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D0A1C81D61E009045C7 /* AFNetworkReachabilityManager.m */; };
+		9D999D2F1C81D61E009045C7 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D0C1C81D61E009045C7 /* AFSecurityPolicy.m */; };
+		9D999D301C81D61E009045C7 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D0E1C81D61E009045C7 /* AFURLConnectionOperation.m */; };
+		9D999D311C81D61E009045C7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D101C81D61E009045C7 /* AFURLRequestSerialization.m */; };
+		9D999D321C81D61E009045C7 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D121C81D61E009045C7 /* AFURLResponseSerialization.m */; };
+		9D999D331C81D61E009045C7 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D141C81D61E009045C7 /* AFURLSessionManager.m */; };
+		9D999D341C81D61E009045C7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D171C81D61E009045C7 /* MBProgressHUD.m */; };
+		9D999D351C81D61E009045C7 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D1A1C81D61E009045C7 /* AFNetworkActivityIndicatorManager.m */; };
+		9D999D361C81D61E009045C7 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D1C1C81D61E009045C7 /* UIActivityIndicatorView+AFNetworking.m */; };
+		9D999D371C81D61E009045C7 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D1E1C81D61E009045C7 /* UIAlertView+AFNetworking.m */; };
+		9D999D381C81D61E009045C7 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D201C81D61E009045C7 /* UIButton+AFNetworking.m */; };
+		9D999D391C81D61E009045C7 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D231C81D61E009045C7 /* UIImageView+AFNetworking.m */; };
+		9D999D3A1C81D61E009045C7 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D261C81D61E009045C7 /* UIProgressView+AFNetworking.m */; };
+		9D999D3B1C81D61E009045C7 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D281C81D61E009045C7 /* UIRefreshControl+AFNetworking.m */; };
+		9D999D3C1C81D61E009045C7 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D2A1C81D61E009045C7 /* UIWebView+AFNetworking.m */; };
+		9D999D471C8208E9009045C7 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D461C8208E9009045C7 /* Track.m */; };
+		9D999D4F1C822958009045C7 /* TrackItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D4E1C822958009045C7 /* TrackItemCell.m */; };
+		9D999D521C8235A1009045C7 /* TrackDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D999D511C8235A1009045C7 /* TrackDetailsViewController.m */; };
+		9D999D541C8240F4009045C7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D999D531C8240F4009045C7 /* AVFoundation.framework */; };
+		9DBC37B11C828C3C0031AF6F /* Pause_Filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DBC37AF1C828C3C0031AF6F /* Pause_Filled.png */; };
+		9DBC37B21C828C3C0031AF6F /* Play_Filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DBC37B01C828C3C0031AF6F /* Play_Filled.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D999CE41C81D357009045C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D999CC21C81D357009045C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D999CC91C81D357009045C7;
+			remoteInfo = SpotifyChart;
+		};
+		9D999CEF1C81D357009045C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D999CC21C81D357009045C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D999CC91C81D357009045C7;
+			remoteInfo = SpotifyChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D999CCA1C81D357009045C7 /* SpotifyChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D999CCE1C81D357009045C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D999CD01C81D357009045C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D999CD11C81D357009045C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D999CD31C81D357009045C7 /* TrackListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackListViewController.h; sourceTree = "<group>"; };
+		9D999CD41C81D357009045C7 /* TrackListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackListViewController.m; sourceTree = "<group>"; };
+		9D999CD71C81D357009045C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D999CD91C81D357009045C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D999CDC1C81D357009045C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D999CDE1C81D357009045C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D999CE31C81D357009045C7 /* SpotifyChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D999CE71C81D357009045C7 /* SpotifyChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotifyChartTests.m; sourceTree = "<group>"; };
+		9D999CE91C81D357009045C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D999CEE1C81D357009045C7 /* SpotifyChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D999CF21C81D357009045C7 /* SpotifyChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotifyChartUITests.m; sourceTree = "<group>"; };
+		9D999CF41C81D357009045C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D999D021C81D61E009045C7 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		9D999D031C81D61E009045C7 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		9D999D041C81D61E009045C7 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		9D999D051C81D61E009045C7 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		9D999D061C81D61E009045C7 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		9D999D071C81D61E009045C7 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		9D999D081C81D61E009045C7 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		9D999D091C81D61E009045C7 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		9D999D0A1C81D61E009045C7 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		9D999D0B1C81D61E009045C7 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		9D999D0C1C81D61E009045C7 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		9D999D0D1C81D61E009045C7 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		9D999D0E1C81D61E009045C7 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		9D999D0F1C81D61E009045C7 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		9D999D101C81D61E009045C7 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		9D999D111C81D61E009045C7 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		9D999D121C81D61E009045C7 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		9D999D131C81D61E009045C7 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		9D999D141C81D61E009045C7 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		9D999D161C81D61E009045C7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9D999D171C81D61E009045C7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9D999D191C81D61E009045C7 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		9D999D1A1C81D61E009045C7 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		9D999D1B1C81D61E009045C7 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		9D999D1C1C81D61E009045C7 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		9D999D1D1C81D61E009045C7 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		9D999D1E1C81D61E009045C7 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		9D999D1F1C81D61E009045C7 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		9D999D201C81D61E009045C7 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		9D999D211C81D61E009045C7 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		9D999D221C81D61E009045C7 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		9D999D231C81D61E009045C7 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		9D999D241C81D61E009045C7 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		9D999D251C81D61E009045C7 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		9D999D261C81D61E009045C7 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		9D999D271C81D61E009045C7 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		9D999D281C81D61E009045C7 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		9D999D291C81D61E009045C7 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		9D999D2A1C81D61E009045C7 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		9D999D451C8208E9009045C7 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		9D999D461C8208E9009045C7 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		9D999D481C8211EB009045C7 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		9D999D4D1C822958009045C7 /* TrackItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackItemCell.h; sourceTree = "<group>"; };
+		9D999D4E1C822958009045C7 /* TrackItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackItemCell.m; sourceTree = "<group>"; };
+		9D999D501C8235A1009045C7 /* TrackDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackDetailsViewController.h; sourceTree = "<group>"; };
+		9D999D511C8235A1009045C7 /* TrackDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackDetailsViewController.m; sourceTree = "<group>"; };
+		9D999D531C8240F4009045C7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9DBC37AF1C828C3C0031AF6F /* Pause_Filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pause_Filled.png; sourceTree = "<group>"; };
+		9DBC37B01C828C3C0031AF6F /* Play_Filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play_Filled.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D999CC71C81D357009045C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D999D541C8240F4009045C7 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D999CE01C81D357009045C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D999CEB1C81D357009045C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D999CC11C81D356009045C7 = {
+			isa = PBXGroup;
+			children = (
+				9D999D531C8240F4009045C7 /* AVFoundation.framework */,
+				9D999D001C81D61E009045C7 /* 3rdParty */,
+				9D999CCC1C81D357009045C7 /* SpotifyChart */,
+				9D999CE61C81D357009045C7 /* SpotifyChartTests */,
+				9D999CF11C81D357009045C7 /* SpotifyChartUITests */,
+				9D999CCB1C81D357009045C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D999CCB1C81D357009045C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D999CCA1C81D357009045C7 /* SpotifyChart.app */,
+				9D999CE31C81D357009045C7 /* SpotifyChartTests.xctest */,
+				9D999CEE1C81D357009045C7 /* SpotifyChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D999CCC1C81D357009045C7 /* SpotifyChart */ = {
+			isa = PBXGroup;
+			children = (
+				9DBC37AE1C828C3C0031AF6F /* Images */,
+				9D999D4C1C822958009045C7 /* TableCells */,
+				9D999D451C8208E9009045C7 /* Track.h */,
+				9D999D461C8208E9009045C7 /* Track.m */,
+				9D999CD01C81D357009045C7 /* AppDelegate.h */,
+				9D999CD11C81D357009045C7 /* AppDelegate.m */,
+				9D999CD31C81D357009045C7 /* TrackListViewController.h */,
+				9D999CD41C81D357009045C7 /* TrackListViewController.m */,
+				9D999CD61C81D357009045C7 /* Main.storyboard */,
+				9D999CD91C81D357009045C7 /* Assets.xcassets */,
+				9D999CDB1C81D357009045C7 /* LaunchScreen.storyboard */,
+				9D999CDE1C81D357009045C7 /* Info.plist */,
+				9D999CCD1C81D357009045C7 /* Supporting Files */,
+				9D999D481C8211EB009045C7 /* Defines.h */,
+				9D999D501C8235A1009045C7 /* TrackDetailsViewController.h */,
+				9D999D511C8235A1009045C7 /* TrackDetailsViewController.m */,
+			);
+			path = SpotifyChart;
+			sourceTree = "<group>";
+		};
+		9D999CCD1C81D357009045C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D999CCE1C81D357009045C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D999CE61C81D357009045C7 /* SpotifyChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D999CE71C81D357009045C7 /* SpotifyChartTests.m */,
+				9D999CE91C81D357009045C7 /* Info.plist */,
+			);
+			path = SpotifyChartTests;
+			sourceTree = "<group>";
+		};
+		9D999CF11C81D357009045C7 /* SpotifyChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D999CF21C81D357009045C7 /* SpotifyChartUITests.m */,
+				9D999CF41C81D357009045C7 /* Info.plist */,
+			);
+			path = SpotifyChartUITests;
+			sourceTree = "<group>";
+		};
+		9D999D001C81D61E009045C7 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				9D999D011C81D61E009045C7 /* AFNetworking */,
+				9D999D151C81D61E009045C7 /* ProgressBar */,
+				9D999D181C81D61E009045C7 /* UIKit+AFNetworking */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		9D999D011C81D61E009045C7 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9D999D021C81D61E009045C7 /* AFHTTPRequestOperation.h */,
+				9D999D031C81D61E009045C7 /* AFHTTPRequestOperation.m */,
+				9D999D041C81D61E009045C7 /* AFHTTPRequestOperationManager.h */,
+				9D999D051C81D61E009045C7 /* AFHTTPRequestOperationManager.m */,
+				9D999D061C81D61E009045C7 /* AFHTTPSessionManager.h */,
+				9D999D071C81D61E009045C7 /* AFHTTPSessionManager.m */,
+				9D999D081C81D61E009045C7 /* AFNetworking.h */,
+				9D999D091C81D61E009045C7 /* AFNetworkReachabilityManager.h */,
+				9D999D0A1C81D61E009045C7 /* AFNetworkReachabilityManager.m */,
+				9D999D0B1C81D61E009045C7 /* AFSecurityPolicy.h */,
+				9D999D0C1C81D61E009045C7 /* AFSecurityPolicy.m */,
+				9D999D0D1C81D61E009045C7 /* AFURLConnectionOperation.h */,
+				9D999D0E1C81D61E009045C7 /* AFURLConnectionOperation.m */,
+				9D999D0F1C81D61E009045C7 /* AFURLRequestSerialization.h */,
+				9D999D101C81D61E009045C7 /* AFURLRequestSerialization.m */,
+				9D999D111C81D61E009045C7 /* AFURLResponseSerialization.h */,
+				9D999D121C81D61E009045C7 /* AFURLResponseSerialization.m */,
+				9D999D131C81D61E009045C7 /* AFURLSessionManager.h */,
+				9D999D141C81D61E009045C7 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		9D999D151C81D61E009045C7 /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				9D999D161C81D61E009045C7 /* MBProgressHUD.h */,
+				9D999D171C81D61E009045C7 /* MBProgressHUD.m */,
+			);
+			path = ProgressBar;
+			sourceTree = "<group>";
+		};
+		9D999D181C81D61E009045C7 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9D999D191C81D61E009045C7 /* AFNetworkActivityIndicatorManager.h */,
+				9D999D1A1C81D61E009045C7 /* AFNetworkActivityIndicatorManager.m */,
+				9D999D1B1C81D61E009045C7 /* UIActivityIndicatorView+AFNetworking.h */,
+				9D999D1C1C81D61E009045C7 /* UIActivityIndicatorView+AFNetworking.m */,
+				9D999D1D1C81D61E009045C7 /* UIAlertView+AFNetworking.h */,
+				9D999D1E1C81D61E009045C7 /* UIAlertView+AFNetworking.m */,
+				9D999D1F1C81D61E009045C7 /* UIButton+AFNetworking.h */,
+				9D999D201C81D61E009045C7 /* UIButton+AFNetworking.m */,
+				9D999D211C81D61E009045C7 /* UIImage+AFNetworking.h */,
+				9D999D221C81D61E009045C7 /* UIImageView+AFNetworking.h */,
+				9D999D231C81D61E009045C7 /* UIImageView+AFNetworking.m */,
+				9D999D241C81D61E009045C7 /* UIKit+AFNetworking.h */,
+				9D999D251C81D61E009045C7 /* UIProgressView+AFNetworking.h */,
+				9D999D261C81D61E009045C7 /* UIProgressView+AFNetworking.m */,
+				9D999D271C81D61E009045C7 /* UIRefreshControl+AFNetworking.h */,
+				9D999D281C81D61E009045C7 /* UIRefreshControl+AFNetworking.m */,
+				9D999D291C81D61E009045C7 /* UIWebView+AFNetworking.h */,
+				9D999D2A1C81D61E009045C7 /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		9D999D4C1C822958009045C7 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				9D999D4D1C822958009045C7 /* TrackItemCell.h */,
+				9D999D4E1C822958009045C7 /* TrackItemCell.m */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		9DBC37AE1C828C3C0031AF6F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9DBC37AF1C828C3C0031AF6F /* Pause_Filled.png */,
+				9DBC37B01C828C3C0031AF6F /* Play_Filled.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D999CC91C81D357009045C7 /* SpotifyChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D999CF71C81D357009045C7 /* Build configuration list for PBXNativeTarget "SpotifyChart" */;
+			buildPhases = (
+				9D999CC61C81D357009045C7 /* Sources */,
+				9D999CC71C81D357009045C7 /* Frameworks */,
+				9D999CC81C81D357009045C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotifyChart;
+			productName = SpotifyChart;
+			productReference = 9D999CCA1C81D357009045C7 /* SpotifyChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D999CE21C81D357009045C7 /* SpotifyChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D999CFA1C81D357009045C7 /* Build configuration list for PBXNativeTarget "SpotifyChartTests" */;
+			buildPhases = (
+				9D999CDF1C81D357009045C7 /* Sources */,
+				9D999CE01C81D357009045C7 /* Frameworks */,
+				9D999CE11C81D357009045C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D999CE51C81D357009045C7 /* PBXTargetDependency */,
+			);
+			name = SpotifyChartTests;
+			productName = SpotifyChartTests;
+			productReference = 9D999CE31C81D357009045C7 /* SpotifyChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D999CED1C81D357009045C7 /* SpotifyChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D999CFD1C81D357009045C7 /* Build configuration list for PBXNativeTarget "SpotifyChartUITests" */;
+			buildPhases = (
+				9D999CEA1C81D357009045C7 /* Sources */,
+				9D999CEB1C81D357009045C7 /* Frameworks */,
+				9D999CEC1C81D357009045C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D999CF01C81D357009045C7 /* PBXTargetDependency */,
+			);
+			name = SpotifyChartUITests;
+			productName = SpotifyChartUITests;
+			productReference = 9D999CEE1C81D357009045C7 /* SpotifyChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D999CC21C81D357009045C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Test;
+				TargetAttributes = {
+					9D999CC91C81D357009045C7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					9D999CE21C81D357009045C7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9D999CC91C81D357009045C7;
+					};
+					9D999CED1C81D357009045C7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9D999CC91C81D357009045C7;
+					};
+				};
+			};
+			buildConfigurationList = 9D999CC51C81D357009045C7 /* Build configuration list for PBXProject "SpotifyChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D999CC11C81D356009045C7;
+			productRefGroup = 9D999CCB1C81D357009045C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D999CC91C81D357009045C7 /* SpotifyChart */,
+				9D999CE21C81D357009045C7 /* SpotifyChartTests */,
+				9D999CED1C81D357009045C7 /* SpotifyChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D999CC81C81D357009045C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBC37B21C828C3C0031AF6F /* Play_Filled.png in Resources */,
+				9DBC37B11C828C3C0031AF6F /* Pause_Filled.png in Resources */,
+				9D999CDD1C81D357009045C7 /* LaunchScreen.storyboard in Resources */,
+				9D999CDA1C81D357009045C7 /* Assets.xcassets in Resources */,
+				9D999CD81C81D357009045C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D999CE11C81D357009045C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D999CEC1C81D357009045C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D999CC61C81D357009045C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D999D3A1C81D61E009045C7 /* UIProgressView+AFNetworking.m in Sources */,
+				9D999D381C81D61E009045C7 /* UIButton+AFNetworking.m in Sources */,
+				9D999D4F1C822958009045C7 /* TrackItemCell.m in Sources */,
+				9D999D3B1C81D61E009045C7 /* UIRefreshControl+AFNetworking.m in Sources */,
+				9D999D471C8208E9009045C7 /* Track.m in Sources */,
+				9D999D371C81D61E009045C7 /* UIAlertView+AFNetworking.m in Sources */,
+				9D999D2B1C81D61E009045C7 /* AFHTTPRequestOperation.m in Sources */,
+				9D999CD51C81D357009045C7 /* TrackListViewController.m in Sources */,
+				9D999D2C1C81D61E009045C7 /* AFHTTPRequestOperationManager.m in Sources */,
+				9D999D2E1C81D61E009045C7 /* AFNetworkReachabilityManager.m in Sources */,
+				9D999D321C81D61E009045C7 /* AFURLResponseSerialization.m in Sources */,
+				9D999D391C81D61E009045C7 /* UIImageView+AFNetworking.m in Sources */,
+				9D999D301C81D61E009045C7 /* AFURLConnectionOperation.m in Sources */,
+				9D999D361C81D61E009045C7 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				9D999D2F1C81D61E009045C7 /* AFSecurityPolicy.m in Sources */,
+				9D999D521C8235A1009045C7 /* TrackDetailsViewController.m in Sources */,
+				9D999D2D1C81D61E009045C7 /* AFHTTPSessionManager.m in Sources */,
+				9D999D311C81D61E009045C7 /* AFURLRequestSerialization.m in Sources */,
+				9D999D341C81D61E009045C7 /* MBProgressHUD.m in Sources */,
+				9D999D331C81D61E009045C7 /* AFURLSessionManager.m in Sources */,
+				9D999D3C1C81D61E009045C7 /* UIWebView+AFNetworking.m in Sources */,
+				9D999CD21C81D357009045C7 /* AppDelegate.m in Sources */,
+				9D999D351C81D61E009045C7 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				9D999CCF1C81D357009045C7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D999CDF1C81D357009045C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D999CE81C81D357009045C7 /* SpotifyChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D999CEA1C81D357009045C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D999CF31C81D357009045C7 /* SpotifyChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D999CE51C81D357009045C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D999CC91C81D357009045C7 /* SpotifyChart */;
+			targetProxy = 9D999CE41C81D357009045C7 /* PBXContainerItemProxy */;
+		};
+		9D999CF01C81D357009045C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D999CC91C81D357009045C7 /* SpotifyChart */;
+			targetProxy = 9D999CEF1C81D357009045C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D999CD61C81D357009045C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D999CD71C81D357009045C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D999CDB1C81D357009045C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D999CDC1C81D357009045C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D999CF51C81D357009045C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D999CF61C81D357009045C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D999CF81C81D357009045C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3rdParty/Realm/ios/dynamic",
+					"$(PROJECT_DIR)/3rdParty/Realm/ios/static",
+				);
+				INFOPLIST_FILE = SpotifyChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Temp.SpotifyChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D999CF91C81D357009045C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3rdParty/Realm/ios/dynamic",
+					"$(PROJECT_DIR)/3rdParty/Realm/ios/static",
+				);
+				INFOPLIST_FILE = SpotifyChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Temp.SpotifyChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D999CFB1C81D357009045C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpotifyChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Temp.SpotifyChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotifyChart.app/SpotifyChart";
+			};
+			name = Debug;
+		};
+		9D999CFC1C81D357009045C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpotifyChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Temp.SpotifyChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotifyChart.app/SpotifyChart";
+			};
+			name = Release;
+		};
+		9D999CFE1C81D357009045C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpotifyChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Temp.SpotifyChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpotifyChart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9D999CFF1C81D357009045C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpotifyChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Temp.SpotifyChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpotifyChart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D999CC51C81D357009045C7 /* Build configuration list for PBXProject "SpotifyChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D999CF51C81D357009045C7 /* Debug */,
+				9D999CF61C81D357009045C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D999CF71C81D357009045C7 /* Build configuration list for PBXNativeTarget "SpotifyChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D999CF81C81D357009045C7 /* Debug */,
+				9D999CF91C81D357009045C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D999CFA1C81D357009045C7 /* Build configuration list for PBXNativeTarget "SpotifyChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D999CFB1C81D357009045C7 /* Debug */,
+				9D999CFC1C81D357009045C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D999CFD1C81D357009045C7 /* Build configuration list for PBXNativeTarget "SpotifyChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D999CFE1C81D357009045C7 /* Debug */,
+				9D999CFF1C81D357009045C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D999CC21C81D357009045C7 /* Project object */;
+}
